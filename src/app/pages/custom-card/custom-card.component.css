@@ -15,23 +15,7 @@
     justify-items: center;
     margin: auto;
 }
-#tarjeta, #tarjeta2, #tarjeta3{
-   width: 400px;
-    height: auto;  
-    background-image: url('../../../assets/images/job3.jpg');
-    background-size: contain; 
-    background-repeat: no-repeat;
-    resize: both;
-    
-}
-.imagen{
-    height: 400px;
-    width: 100%;   
-    background-image: url('../../../assets/images/job3.jpg');
-    background-size: cover; 
-    
-    
-}
+
 
 /* You can add global styles to this file, and also import other style files */
 .bd-placeholder-img {
