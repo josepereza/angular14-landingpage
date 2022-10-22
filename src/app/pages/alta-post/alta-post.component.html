@@ -1,0 +1,15 @@
+<p>alta-post works!</p>
+
+<form [formGroup]="miForm" (ngSubmit)="onSubmit()">
+
+    <label for="titulo">Titutulo: </label>
+    <input id="titulo" type="text" formControlName="title">
+  
+    <label for="content">Contenido: </label>
+    <input id="content" type="text" formControlName="content">
+  
+    <label for="email">Email: </label>
+    <input id="email" type="email" formControlName="authorEmail">
+
+<button type="submit">Enviar</button>
+  </form>
